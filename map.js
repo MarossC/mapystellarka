@@ -1,8 +1,4 @@
 function setMap(imageSrc, maxX, maxY) {
-    if (imageSrc == "image3.jpg"){
-        var OKURWARAKETAA = document.getElementById("OKURWARAKETA");
-        OKURWARAKETAA.play();
-    }
     document.getElementById("xInput").value = '';
     document.getElementById("yInput").value = '';
 
