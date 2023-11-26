@@ -1,0 +1,29 @@
+.maps > table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.maps{
+    :scope th, td {
+        border: 1px solid #DCDCDC;
+        padding: 8px;
+        text-align: left;
+        width: 16.6%;
+        border: 2px solid #202124 !important;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+}
+.maps tr:nth-child(even) {
+    background-color: #DCDCDC; /* White */
+}
+
+.maps tr:nth-child(odd) {
+    background-color: #A52A2A; /* Blue */
+    color: #DCDCDC; /* Text color for blue rows */
+}
+
+.maps > th{
+        background-color: #DCDCDC;
+}

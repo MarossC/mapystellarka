@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KNQHH3GKGQ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KNQHH3GKGQ');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1577118256454304"
+    crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-adsense-account" content="ca-pub-1577118256454304">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="donate-button.css">
+    <link rel="stylesheet" href="map-table.css">
+    <link rel="stylesheet" href="dono-table.css">
+    <title>Stellaria Map Finder</title>
+</head>
+<body>
+    <div class="btn">
+        <a href="../donate.html" target="_blank">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Donate
+        </a>
+    </div>
+    <div class="btn discord">
+        <a href="https://discord.gg/3vQ9Ddkwzf" target="_blank">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Discord
+        </a>
+    </div>
+    <div class="btn eventy">
+        <a href="../eventy.html">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Eventy
+        </a>
+    </div>
+    </div>
+    <h1>Hledač mapy</h1>
+    <input type="text" id="searchInput" class="search-bar" placeholder="Search...">
+    <div class="suggestions" id="suggestions"></div>
+    <div class="result" id="searchResults"></div>
+    <section class="maps">
+        <h1>Mapy</h1>
+        <table>
+            <tr>
+                <td><button class="white-button" id="Yongan" onclick="setMap('image1.jpg', 1000, 1300)">Yongan</button></td>
+                <td><button class="white-button" id="Joan" onclick="setMap('image2.jpg', 1000, 1300)">Joan</button></td>
+                <td><button class="white-button" id="Pyungmoo" onclick="setMap('image3.jpg', 1000, 1300)">Pyungmoo</button></td>
+                <td><button class="white-button" id="Yayang" onclick="setMap('image4.jpg', 1000, 1000)">Yayang</button></td>
+                <td><button class="white-button" id="Bokjung" onclick="setMap('image5.jpg', 1000, 1000)">Bokjung</button></td>
+                <td><button class="white-button" id="Bakra" onclick="setMap('image6.jpg', 1000, 1000)">Bakra</button></td>
+            </tr>
+            <tr>
+                <td><button class="blue-button-2" id="Údolí Orků" onclick="setMap('image7.jpg', 1500, 1500)">Údolí Orků</button></td>
+                <td><button class="blue-button-2" id="Chrám Hwang" onclick="setMap('image8.jpg', 1000, 1000)">Chrám Hwang</button></td>
+                <td><button class="blue-button-2" id="Poušť Yongbi" onclick="setMap('image9.jpg', 1000, 1000)">Poušť Yongbi</button></td>
+                <td><button class="blue-button-2" id="Ledová Země" onclick="setMap('image10.jpg', 1500, 1500)">Ledová Země</button></td>
+                <td><button class="blue-button-2" id="Ohnivá Země" onclick="setMap('image11.jpg', 800, 800)">Ohnivá Země</button></td>
+                <td><button class="blue-button-2" id="Nefritový Záliv" onclick="setMap('image12.jpg', 800, 1500)">Nefritový Záliv</button></td>
+            </tr>
+            <tr>
+                <td><button class="white-button" id="Pavoučí Jeskyně 1." onclick="setMap('image13.jpg', 800, 800)">Pavoučí Jeskyně 1</button></td>
+                <td><button class="white-button" id="Pavoučí Jeskyně 2." onclick="setMap('image14.jpg', 1050, 1050)">Pavoučí Jeskyně 2</button></td>
+                <td><button class="white-button" id="Pavoučí Jeskyně 3." onclick="setMap('image15.jpg', 800, 800)">Pavoučí Jeskyně 3</button></td>
+                <td><button class="white-button" id="Zelený Les" onclick="setMap('image16.jpg', 800, 800)">Zelený Les</button></td>
+                <td><button class="white-button" id="Červený Les" onclick="setMap('image17.jpg', 800, 800)">Červený Les</button></td>
+                <td><button class="white-button" id="Útes Gautama" onclick="setMap('image18.jpg', 1800, 1000)">Útes Gautama</button></td>
+            </tr>
+            <tr>
+                <td><button class="blue-button-2" id="Jeskyně Vyhnanství 1." onclick="setMap('image19.jpg', 1500, 1500)">Jeskyně Vyhnanství 1</button></td>
+                <td><button class="blue-button-2" id="Jeskyně Vyhnanství 2." onclick="setMap('image20.jpg', 1500, 1500)">Jeskyně Vyhnanství 2</button></td>
+                <td><button class="blue-button-2" id="Hřbitov" onclick="setMap('image21.jpg', 1000, 700)">Hřbitov</button></td>
+                <td><button class="blue-button-2" id="Zombieland" onclick="setMap('image22.jpg', 1000, 1000)">Zombieland</button></td>
+                <td><button class="blue-button-2" id="Příroda" onclick="setMap('image23.jpg', 1800, 1000)">Příroda</button></td>
+                <td><button class="blue-button-2" id="Sunshine" onclick="setMap('image24.jpg', 1000, 1000)">Sunshine</button></td>
+            </tr>
+            <tr>
+                <td><button class="white-button" id="Saharská Poušť" onclick="setMap('image25.jpg', 1500, 1500)">Saharská Poušť</button></td>
+                <td><button class="white-button" id="Pohoří Gnollů" onclick="setMap('image26.jpg', 800, 800)">Pohoří Gnollů</button></td>
+                <td><button class="white-button" id="Andunské Katakomby" onclick="setMap('image27.jpg', 2000, 2000)">Andunské Katakomby</button></td>
+                <td><button class="white-button" id="Lávové Pole" onclick="setMap('image28.jpg', 1500, 1500)">Lávové Pole</button></td>
+                <td><button class="white-button" id="Údolí Draků" onclick="setMap('image29.jpg', 1500, 1200)">Údolí Draků</button></td>
+                <td><button class="white-button" id="Přeludný Ostrov" onclick="setMap('image30.jpg', 2300, 2300)">Přeludný Ostrov</button></td>
+            </tr>
+        </table>
+    </section>
+    
+    <div class="buttons">
+        <div>
+            <p>X: <input type="text" id="xInput" class="blue-input" placeholder="Enter X-coordinate" max="2000"></p>
+            <p>Y: <input type="text" id="yInput" class="blue-input" placeholder="Enter Y-coordinate" max="2000"></p>
+        </div>
+        <div style="margin-top: 1rem;">
+            <button class="blue-button" onclick="searchMap()">Vyhledat</button>
+        </div>
+        </div>
+    </div>
+    <div class="map-container">
+        <div class="map" id="mapContainer" style="width: 400px; height: 400px;">
+
+        </div>
+    </div>
+    <section class="donate-tab">
+        <h1>Tímto bych chtěl poděkovat všem, kteří mi přispěli za moji práci.</h1>
+        <div class="tab">
+            <table>
+                <thead>
+                  <tr>
+                    <th>Jméno ve hře</th>
+                    <th>Částka</th>
+                    <th>Zpráva</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Valkyria</td>
+                        <td>600 Kč</td>
+                        <td>Valkyria, Tvůj příspěvek je pro mě obrovskou pomocí. Mnohokrát děkuji!</td>
+                    </tr>
+                    <tr>
+                        <td>Adriliven</td>
+                        <td>400 Kč</td>
+                        <td>Adriliven, Tvůj příspěvek je pro mě obrovskou pomocí. Díky!</td>
+                    </tr>
+                    <tr>
+                        <td>Erroricek</td>
+                        <td>269,15 Kč</td>
+                        <td>Erroricek, Tvůj příspěvek je pro mě obrovskou pomocí. Díky!</td>
+                    </tr>
+                    <tr>
+                        <td>LilPorxxta</td>
+                        <td>250 Kč</td>
+                        <td>LilPorxxta, Tvůj příspěvek je pro mě obrovskou pomocí. Díky!</td>
+                    </tr>
+                    <tr>
+                        <td>Despina a Longin</td>
+                        <td>217,39 Kč</td>
+                        <td>Despina a Longin, Váš příspěvek je pro mě obrovskou pomocí. Díky!</td>
+                    </tr>
+                    <tr>
+                        <td>JohnB</td>
+                        <td>150 Kč</td>
+                        <td>JohnB, Tvůj příspěvek je pro mě obrovskou pomocí. Díky!</td>
+                    </tr>
+                    <tr>
+                        <td>(Herní nick se zjišťuje)</td>
+                        <td>100 Kč</td>
+                        <td>(), Tvůj příspěvek je pro mě obrovskou pomocí. Díky!</td>
+                    </tr>
+                    <tr>
+                        <td>Ingilingibingi</td>
+                        <td>69 Kč</td>
+                        <td>Ingilingibingi, Tvůj příspěvek je pro mě obrovskou pomocí. Díky!</td>
+                    </tr>
+                </tbody>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </table>
+        </div>
+    </section>
+    <script src="map.js"></script>
+    <script src="searchbar.js"></script>
+    <script src="donatebar.js"></script>
+</body>
+</html>
