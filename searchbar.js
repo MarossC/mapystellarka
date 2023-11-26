@@ -125,7 +125,7 @@
             "Předmět se nachází v údolí, které obývají 2 různé druhy monster.": "Pohoří Gnollů",
             "Předmět se nachází v oblasti, kde se vyskytuje chrám uctívaný starodávnou civilizací primátů.": "Útes Gautama",
             "Předmět byl naposled spatřen v oblasti, kde lze nalézt starodávné kyklopy.": "Útes Gautama",
-            "Předmět se nachází v mapě, V které lze uprostřed spatřit ostrov,na kterém se nachází svatyně.": "Úte Gautama",
+            "Předmět se nachází v mapě, V které lze uprostřed spatřit ostrov,na kterém se nachází svatyně.": "Útes Gautama",
             "Předmět byl naposled spatřen v oblasti, kterou sdílí opice s orky.": "Útes Gautama",
             "Předmět se nachází v oblasti, v které se nachází věž, od které je výhled na celé údolí.": "Údolí Draků",
             "Předmět se nachází v oblasti, v které ze začátku procházíte obydlenou oblastí a poté se dostanete do volné přírody.": "Údolí Draků",
@@ -133,8 +133,8 @@
             "Předmět se nachází v oblasti, kde lze spatřit nejvíce druhů meteorů.": "Přeludný Ostrov",
             "Předmět se nachází v oblasti, která je rozdělena na 4 systematické časti.": "Přeludný Ostrov",
             "Předmět se nachází v oblasti, kterou stráží dračí bojovníci.": "Údolí Draků",
-            "Předmět byl naposled spatřen v oblasti, kde se na pobřeží nachází krabi a žraloci.": "Nefritový Záliv"
-
+            "Předmět byl naposled spatřen v oblasti, kde se na pobřeží nachází krabi a žraloci.": "Nefritový Záliv",
+            "Předmět byl naposled spatřen v oblasti, kterou obývají pouze 2 národy ezoteriků tmavší rasy.": "Sunshine"
         };
 
          // Event listener for input changes
