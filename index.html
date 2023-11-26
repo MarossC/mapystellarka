@@ -9,8 +9,16 @@
     <title>Stellaria Map Finder</title>
 </head>
 <body>
+    <script>
+        function play() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+      </script>
+
     <div class="btn">
-        <a href="https://www.youtube.com/watch?v=XBk3Oa_YHKM" target="_blank">
+        <input type="button" value="PLAY" onclick="play()">
+        <audio id="audio" src="ttj.mp3"></audio>
             <span></span>
             <span></span>
             <span></span>
