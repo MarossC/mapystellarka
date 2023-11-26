@@ -134,6 +134,7 @@
             "Předmět se nachází v oblasti, která je rozdělena na 4 systematické časti.": "Přeludný Ostrov",
             "Předmět se nachází v oblasti, kterou stráží dračí bojovníci.": "Údolí Draků",
             "Předmět byl naposled spatřen v oblasti, kde se na pobřeží nachází krabi a žraloci.": "Nefritový Záliv",
+            // new lines
             "Předmět byl naposled spatřen v oblasti, kterou obývají pouze 2 národy ezoteriků tmavší rasy.": "Sunshine"
         };
 
