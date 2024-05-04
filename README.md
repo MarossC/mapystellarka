@@ -1,3 +1,5 @@
+https://marossc.github.io/mapystellarka/
+
 # CZ:
 Původní tvůrce:
 - Simisko (@simisko na discordu), a OMFG (Osvicko Map Finder Group) 
